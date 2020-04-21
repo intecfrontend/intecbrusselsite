@@ -1,0 +1,97 @@
+html {
+  padding: 0px;
+  font-family: sans-serif;
+  background: black;
+}
+
+
+
+.fa-chevron-left,
+.fa-chevron-right {
+  color: grey;
+  margin: 1.5vw;
+}
+
+#exampleSlider {
+  position: relative;
+  background: black;
+  color: white;
+  width: 98vw;
+}
+
+@media (max-width: 767px) {
+  #exampleSlider {
+    border-color: transparent;
+  }
+}
+
+#exampleSlider .MS-content {
+  margin: 0vw;
+  overflow: hidden;
+  white-space: nowrap;
+  /* border: 1px solid red;*/
+}
+
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0vw;
+  }
+}
+
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  left: 10vw;
+
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  /*border: 1px solid green;*/
+  border-right: none;
+  width: 50%;
+}
+
+
+#exampleSlider .MS-content .item p {
+  font-size: 2vw;
+  text-align: left;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 2vw 0vw 2vw 0vw;
+  padding: 0px 0;
+}
+
+#exampleSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 2vw;
+}
+
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+
+#exampleSlider .MS-controls .MS-left {
+  left: 0px;
+}
+
+
+
+#exampleSlider .MS-controls .MS-right {
+  right: 0px;
+}
+
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: 0px;
+  }
+}

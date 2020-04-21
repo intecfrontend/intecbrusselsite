@@ -283,6 +283,7 @@ header.masthead .intro-text .intro-heading {
     height: 100%;
     transition: all ease .5s;
     opacity: 0;
+    margin: -1vw;
     background: rgba(254, 209, 54, .9)
 }
 
